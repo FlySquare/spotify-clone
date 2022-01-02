@@ -1,0 +1,223 @@
+html,body{
+    margin: 0;
+    font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.header{
+    display: flex;
+    background-color: #000;
+    height:80px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerImage{
+    margin-top:20px;
+    margin-left:100px;
+}
+.headerList{
+    margin-top:30px;
+    margin-right: 50px;
+    list-style: none;
+    display: flex;
+    color: #fff;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headerList li{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left:50px;
+}
+.headerList a{
+    color: #fff;
+    text-decoration: none;
+}
+.headerList a:hover{
+       color: #1ed760
+}
+.headerList a{
+    display: contents;
+}
+.fa-chevron-down{
+    margin-left: 10px;
+}
+.headerAvatar{
+    border-radius: 50%;
+}
+.headerList .lastli{
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    align-items: center;
+}
+.headerList .lastli:hover .headerDropdown{
+    display: block;
+}
+.headerDropdown{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.firstSlide{
+    background-color: #f46ebe;
+    background-repeat: repeat-y;
+    height:606px;
+    background-size: 2042px;
+    background-image: url(https://www-growth.scdn.co/static/home/wrapped-homepage-banner-graphic-desktop.svg);
+    background-position: right -1200px bottom -428px;
+}
+.secondSlide{
+    background-color: #2941ab;
+    background-repeat: repeat-y;
+    height:600px;
+    background-size: 1500px;
+    background-image: url(https://content-tooling.spotifycdn.com/images/b236bf87-bfd5-4bcb-b51a-77881073039c_lie_circles.svg);
+    background-position: right 0px bottom -26px;
+}
+.secondSlide .padding{
+    padding: 104px;
+}
+.secondSlide .padding .title{
+    text-align: start;
+    font-size: 60px;
+    min-width: 372px;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0px 0px 60px;
+    padding: 0px;
+}
+.secondSlide .padding .span{
+    margin-block: auto;
+}
+.secondSlide .padding .button:hover{
+    transform: scale(1.05);
+}
+.footer{
+    height:530px;
+    background-color: black;
+}
+.secondSlide .padding .button{
+    width: 182px;
+    height:48px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #00000000;
+    font-weight: 700;
+    border: 0px;
+    border-radius: 500px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: normal;
+    display: flex;
+    margin-top: 50px;
+    -webkit-box-pack: center;
+    justify-content: center;
+    text-decoration: none !important;
+    border-radius: 500px;
+    background-color:#1ed760;
+}
+.secondSlide .slideButton{
+    background-color: #1ed760;
+    border-radius: 50%;
+}
+.firstSlide .main{
+    color:#202f72;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    padding: 104px;
+    align-items: flex-start;
+}
+.markets{
+    display: flex;
+    align-items: center;
+}
+.market-listen{
+    margin-top: 25px;
+    font-size: 16px;
+    display: flex;
+}
+.firstSlide .title{
+    text-align: start;
+    font-size: 60px;
+    max-width: 512px;
+}
+.firstSlide .hastag{
+    font-size: 14px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.firstSlide .subheader h2{
+    margin: 32px 0px;
+    text-align: start;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 400;
+    max-width: 512px;
+}
+.footer{
+    padding:85px;
+    display: flex;
+    color:white;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer .company{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer .company a{
+    margin-bottom:25px;
+}
+.footer .community{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer .community a{
+    margin-bottom:25px;
+}
+.footer a{
+    color:white;
+    text-decoration:none;
+}
+.footer a:hover{
+    color:#1ed760;
+}
+.footer h3{
+    color:#919496;
+}
+.footer .social-media{
+    display: flex;
+    margin-top:20px;
+}
+.footer .social-media a{
+    background-color: #222326;
+    margin-right:20px;
+    width:54px;
+    height:54px;
+    display: inline-flex;
+    border-radius: 50%;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+}
+.footer .connections{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer .connections a{
+    margin-bottom:25px;
+}
