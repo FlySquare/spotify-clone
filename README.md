@@ -1,6 +1,6 @@
 # Test Web Site
 
-Test Site: [http://iamumut.com/spotify/](http://iamumut.com/spotify/)
+Test Site: [http://iamumut.com/spotify/](http://iamumut.com/spotify-clone-html/)
 
 ## Available Scripts
 
